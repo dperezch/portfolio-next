@@ -21,22 +21,25 @@ const About = () => {
           </section>
           <section className="p-6 text-slate-300">
             <p>
-              Hola!, soy chileno, licenciado en Artes de la Universidad de
-              Concepción, comencé el camino de la programación realizando un
-              bootcamp de desarrollo web front-end y luego seguí complementando
-              mis conocimientos de manera autodidacta.
+              ¡Hola! Soy chileno y tengo una licenciatura en Artes de la
+              Universidad de Concepción. Mi viaje en la programación comenzó con
+              un bootcamp de desarrollo web front-end, y además, he completado
+              otro bootcamp de fullstack JavaScript. También he realizado el
+              curso de AWS Cloud Foundations, que me brindó una comprensión
+              práctica de los conceptos de la nube en el contexto de Amazon Web
+              Services (AWS).
             </p>
             <br />
             <p>
-              Siempre estoy explorando y aprendiendo constantemente nuevas
-              tecnologías tanto de front-end como de back-end y también de
-              computación en la nube como los servicios de Amazon Web Services.
+              Desde entonces, he seguido ampliando mis conocimientos de manera
+              autodidacta. Me apasiona explorar y aprender constantemente nuevas
+              tecnologías, tanto en el front-end como en el back-end.
             </p>
             <br />
             <p>
-              Constantemente estoy en búsqueda de nuevos desafíos por lo cual
-              espero seguir adquiriendo más conocimientos y experiencia en este
-              mundo tan entretenido que es la programación.
+              Siempre estoy en busca de nuevos desafíos, y espero seguir
+              adquiriendo conocimientos y experiencia en este emocionante campo
+              de la programación.
             </p>
             <div className="gap-4 flex mt-4 md:mt-6 text-slate-800">
               <a
@@ -57,7 +60,7 @@ const About = () => {
           </section>
         </div>
       </div>
-      <div className="self-start">
+      <div className="lg:self-start lg:mt-10">
         <h1 className="mb-4 text-3xl font-bold tracking-tight leading-none md:text-5xl lg:text-7xl text-slate-500">
           Acerca de m<span className="text-teal-500">í</span>
         </h1>

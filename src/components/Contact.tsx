@@ -31,7 +31,7 @@ const Contacto = () => {
   };
   return (
     <div className="flex lg:flex-row flex-col w-full justify-around items-center py-20">
-      <div id="contacto" className=" self-start">
+      <div id="contacto" className=" lg:self-start">
         <IconChat />
         <h1 className="mb-4 text-3xl font-bold tracking-tight leading-none md:text-5xl lg:text-7xl text-slate-500">
           <span className="text-teal-500">C</span>ontacto

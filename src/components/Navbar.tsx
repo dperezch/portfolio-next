@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { Navbar } from "flowbite-react";
 
 export function Barra() {
@@ -19,10 +18,10 @@ export function Barra() {
         <Navbar.Link className="text-slate-200" href="#proyectos">
           Proyectos
         </Navbar.Link>
-        <Navbar.Link className="text-slate-200" href="#">
+        <Navbar.Link className="text-slate-200" href="#habilidades">
           Habilidades
         </Navbar.Link>
-        <Navbar.Link as={Link} className="text-slate-200" href="#acerca">
+        <Navbar.Link className="text-slate-200" href="#acerca">
           Acerca de mí
         </Navbar.Link>
         <Navbar.Link className="text-slate-200" href="#contacto">

@@ -1,6 +1,6 @@
 const IconProject = () => {
   return (
-    <div className="mt-[-2em]">
+    <div className="mt-[-2em] hidden lg:block">
       <svg
         width="120"
         height="120"

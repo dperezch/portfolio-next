@@ -11,19 +11,19 @@ const Proyectos = () => {
 
   const text1 = {
     title: "App Lista de compras",
-    subtitle: "Aplicación Híbrida",
+    subtitle: "Aplicación Híbrida (Web/Android)",
     list: ["Vue2", "QuasarJS", "Android Studio"],
     body: "Aplicación CRUD para agregar productos en modalidad lista y en modalidad de lista con precios, con opciones de cantidad y precio del producto, sumando el total de la lista.",
     secondList: [
-      "Generar y compilar aplicaciones en archivos APK",
-      "Generar llaves para firmar archivos APK",
-      "Utilización de plataforma Google Play Console",
+      "Generar y compilar aplicaciones en archivos APK / AAB",
+      "Generar llaves para firmar archivos APK / AAB",
+      "Utilización de plataforma Google Play Console, subir aplicaciones a Play Store.",
     ],
   };
 
   const text2 = {
-    title: "Curso Autoinstruccional",
-    subtitle: "Aplicación Híbrida",
+    title: "App para cursos de auto aprendizaje",
+    subtitle: "Aplicación Híbrida (Web/Android)",
     list: ["Vue3", "QuasarJS", "Android Studio"],
     body: "Aplicación para alojar cursos autoinstruccionales para formato tablet. Funcionalidades de trabajo offline, registro de actividades, tiempo de conexión, calificaciones, fechas. Detección automática de conexión a internet al cerrar sesión y envío automático de registro de actividades del alumno a base datos noSQL alojada en la nube.",
     secondList: [
@@ -97,14 +97,14 @@ const Proyectos = () => {
   return (
     <div id="proyectos" className="py-20">
       <div className="flex md:flex-col lg:flex-row flex-col w-full justify-around items-center pb-5">
-        <div className="flex flex-col self-start">
-          <div className="flex flex-row">
+        <div className="flex flex-col lg:self-start lg:ml-10">
+          <div className="flex flex-row self-center">
             <h1 className="mb-4 text-3xl font-bold tracking-tight leading-none md:text-5xl lg:text-7xl text-slate-500">
               <span className="text-teal-500">P</span>royectos
             </h1>
             <IconProject />
           </div>
-          <div className="mt-4">
+          <div className="mt-4 flex flex-row">
             <button
               onClick={() => switchProjects("proyecto1")}
               className="mr-2 text-white bg-teal-700 hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-b-lg rounded-r-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center border-r-8 border-b-8 border-black"
