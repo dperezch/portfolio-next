@@ -16,7 +16,7 @@ const Contacto = () => {
     event.preventDefault();
     setAlerta(true);
     setLoading(true);
-    //console.log(name, email, subject, content);
+    console.log(name, email, subject, content);
     const formBody = {
       from: process.env.NEXT_PUBLIC_MAILER_USER,
       to: process.env.NEXT_PUBLIC_MAILER_TO,
@@ -32,7 +32,8 @@ const Contacto = () => {
       text: "Hola, muchas gracias por el mensaje!! te responderé en breve por este medio!, Atte. David Pérez.",
     };
 
-    //console.log(formBody);
+    console.log(formBody);
+    console.log(formBody2);
 
     const response = await fetch("/api/send", {
       method: "POST",
