@@ -22,7 +22,7 @@ export const sendMail = async (emailBody: EmailBody) => {
     subject: emailBody.subject,
     text: emailBody.text,
   };
-  transporter
+  await transporter
     .sendMail(mailOptions)
     .then((message) => {
       console.log(message);
